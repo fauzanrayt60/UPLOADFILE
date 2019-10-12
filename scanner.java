@@ -8,7 +8,7 @@ public class beratbadan {
     
     public static void main(String[] args) {
         
-       Scanner qq = new Scanner(System.in);
+        Scanner qq = new Scanner(System.in);
         String nama;
         System.out.print("Masukkan nama :");
         nama = qq.nextLine();
@@ -17,6 +17,7 @@ public class beratbadan {
         bb = qq.nextFloat();
         System.out.print("Masukkan Tinggi badan :");
         tb = qq.nextFloat();
+        System.out.println("==============================================");
         hasil = (bb/((tb/100)*(tb/100)));
         System.out.println(hasil);
          if  (hasil<=18.5)
